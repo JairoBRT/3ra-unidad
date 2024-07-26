@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(45deg, #33FFEC, #33FF68, #64FF33);
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+tr.dragging {
+    background-color: #f0f0f0;
+    opacity: 0.7;
+}
